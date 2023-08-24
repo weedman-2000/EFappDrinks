@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "70369866396",
+    "project_id": "efapp-6999c",
+    "storage_bucket": "efapp-6999c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70369866396:android:caef8362052f3523fab359",
+        "android_client_info": {
+          "package_name": "com.example.efapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70369866396-53jlgf3noeu1h054885p3j8g6e55qbf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.efapp",
+            "certificate_hash": "7e4c63c54055f89aa43fb7dddbe05900e8afbc3c"
+          }
+        },
+        {
+          "client_id": "70369866396-1jp0a97k0u3ik8lpdn9ajqtf4qjm1svo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLVG_OPPzo088IWYmwUyZoAafAdjdX4Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70369866396-1jp0a97k0u3ik8lpdn9ajqtf4qjm1svo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/listApiFragment">
+
+    <fragment
+        android:id="@+id/listApiFragment"
+        android:name="com.example.efapp.ui.fragments.ListApiFragment"
+        android:label="fragment_list_api"
+        tools:layout="@layout/fragment_list_api" >
+        <action
+            android:id="@+id/action_listApiFragment_to_drinkApiDetailFragment"
+            app:destination="@id/drinkApiDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favDataBaseFragment"
+        android:name="com.example.efapp.ui.fragments.FavDataBaseFragment"
+        android:label="fragment_fav_data_base"
+        tools:layout="@layout/fragment_fav_data_base" >
+        <action
+            android:id="@+id/action_favDataBaseFragment_to_drinkApiDetailFragment"
+            app:destination="@id/drinkApiDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFireBaseFragment"
+        android:name="com.example.efapp.ui.fragments.ListFireBaseFragment"
+        android:label="fragment_list_fire_base"
+        tools:layout="@layout/fragment_list_fire_base" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.efapp.ui.fragments.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/drinkApiDetailFragment"
+        android:name="com.example.efapp.ui.fragments.DrinkApiDetailFragment"
+        android:label="fragment_drink_api_detail"
+        tools:layout="@layout/fragment_drink_api_detail" >
+        <argument
+            android:name="drink"
+            app:argType="com.example.efapp.model.Drink" />
+    </fragment>
+</navigation>
