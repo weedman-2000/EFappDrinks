@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.efapp.data.db.DrinkDataBase
 import com.example.efapp.data.repository.DrinkRepository
-import com.example.efapp.data.model.Drink
+import com.example.efapp.model.Drink
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

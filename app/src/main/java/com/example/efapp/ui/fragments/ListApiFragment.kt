@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.efapp.R
 import com.example.efapp.databinding.FragmentListApiBinding
-import com.example.efapp.data.model.getData
+import com.example.efapp.model.getData
 import com.example.efapp.ui.fragments.ListApiFragmentDirections
 import com.example.efapp.ui.viewmodels.ApiListViewModel
 

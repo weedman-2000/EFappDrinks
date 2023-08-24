@@ -11,7 +11,7 @@ import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.example.efapp.R
 import com.example.efapp.databinding.FragmentDrinkApiDetailBinding
-import com.example.efapp.data.model.Drink
+import com.example.efapp.model.Drink
 import com.example.efapp.ui.fragments.DrinkApiDetailFragmentArgs
 import com.google.android.material.snackbar.Snackbar
 

@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.efapp.databinding.ItemDrinkBinding
-import com.example.efapp.data.model.Drink
+import com.example.efapp.model.Drink
 
 class RVListApiAdapter(var drink: List<Drink>, val onDrinkClick:(Drink) -> Unit): RecyclerView.Adapter<DrinkVH>()
 {

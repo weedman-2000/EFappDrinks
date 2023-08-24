@@ -5,7 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.example.efapp.data.model.Drink
+import com.example.efapp.model.Drink
 
 @Dao
 interface DrinkDao

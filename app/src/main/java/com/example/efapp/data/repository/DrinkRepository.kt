@@ -3,7 +3,7 @@ package com.example.efapp.data.repository
 import com.example.efapp.data.db.DrinkDao
 import com.example.efapp.data.db.DrinkDataBase
 import com.example.efapp.data.retrofit.RetrofitHelper
-import com.example.efapp.data.model.Drink
+import com.example.efapp.model.Drink
 
 class DrinkRepository(db: DrinkDataBase? = null) {
 
