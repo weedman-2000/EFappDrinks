@@ -1,4 +1,4 @@
-package com.example.efapp.ui
+package com.example.efapp.ui.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         binding.bnvMenu.setupWithNavController(navController)
 
         binding.btnRegisterDrink.setOnClickListener {
-            val intent = Intent(this,AddDrinkActivity::class.java)
+            val intent = Intent(this, AddDrinkActivity::class.java)
             startActivity(intent)
             finish()
         }

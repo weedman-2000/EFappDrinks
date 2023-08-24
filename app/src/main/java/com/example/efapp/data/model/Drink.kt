@@ -1,4 +1,4 @@
-package com.example.efapp.model
+package com.example.efapp.data.model
 
 import android.os.Parcelable
 import androidx.room.Entity

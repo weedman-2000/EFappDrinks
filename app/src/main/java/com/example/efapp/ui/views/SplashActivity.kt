@@ -1,4 +1,4 @@
-package com.example.efapp.ui
+package com.example.efapp.ui.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -11,14 +11,15 @@ import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.example.efapp.R
 import com.example.efapp.databinding.FragmentDrinkApiDetailBinding
-import com.example.efapp.model.Drink
+import com.example.efapp.data.model.Drink
+import com.example.efapp.ui.fragments.DrinkApiDetailFragmentArgs
 import com.google.android.material.snackbar.Snackbar
 
 class DrinkApiDetailFragment : Fragment() {
 
     private lateinit var binding: FragmentDrinkApiDetailBinding
     private val args: DrinkApiDetailFragmentArgs by navArgs()
-    private lateinit var drink :Drink
+    private lateinit var drink : Drink
     private lateinit var viewModel: DrinkDetailViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {

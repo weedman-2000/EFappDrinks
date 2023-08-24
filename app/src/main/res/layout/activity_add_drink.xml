@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AddDrinkActivity"
+    tools:context=".ui.views.AddDrinkActivity"
     >
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_title_drink"
@@ -183,7 +183,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_instructions_note"
+        android:id="@+id/til_instructions_drink"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="20dp"
@@ -199,7 +199,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_register_note"
+        android:id="@+id/btn_register_drink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
@@ -209,7 +209,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_instructions_note"
+        app:layout_constraintTop_toBottomOf="@+id/til_instructions_drink"
         />
 
     <TextView
@@ -219,7 +219,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
 
-        app:layout_constraintBottom_toTopOf="@+id/til_instructions_note"
+        app:layout_constraintBottom_toTopOf="@+id/til_instructions_drink"
         app:layout_constraintEnd_toStartOf="@+id/switch_favorite"
         app:layout_constraintTop_toBottomOf="@+id/til_iba_drink"
         />
@@ -228,7 +228,7 @@
         android:id="@+id/switch_favorite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/til_instructions_note"
+        app:layout_constraintBottom_toTopOf="@+id/til_instructions_drink"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/til_iba_drink"
         />

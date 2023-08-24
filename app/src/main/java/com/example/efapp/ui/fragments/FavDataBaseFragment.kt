@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.efapp.R
 import com.example.efapp.databinding.FragmentDrinkApiDetailBinding
 import com.example.efapp.databinding.FragmentFavDataBaseBinding
+import com.example.efapp.ui.fragments.FavDataBaseFragmentDirections
 
 
 class FavDataBaseFragment : Fragment() {
